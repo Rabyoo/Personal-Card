@@ -1,0 +1,118 @@
+body {
+   background-color: hsl(228, 45%, 44%); 
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: hsl(228, 43%, 36%);
+    width: 350px;
+    height: 550px;
+    border-radius: 14px;
+    position: relative;
+    left: 35%;
+    top: 75%;
+    box-shadow: inset 4px 4px 4px #039BE5, 6px 6px 6px #64B5F6;
+}
+.image img {
+    width: 300px;
+    height:300px ;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    position: relative;
+    top: 25px;
+    border-radius: 14px;
+    animation-name: raduis;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+/* .image img:hover {
+    transform: rotateY(180deg);
+    transition: 2s;
+} */
+
+@keyframes raduis {
+    100% {
+        transform: rotateY(180deg);
+    transition: 2s;
+    }
+}
+.heading h2 a {
+    color: white;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 25px;
+    text-decoration: none;
+}
+.heading p {
+    color: hsl(228deg 37.02% 59.99%);
+   margin-left: 20px;
+   margin-top: 20px;
+   position: relative;
+   top: 20px;
+}
+.heading .left {
+    color: #4DD0E1;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading .right {
+    color: hsl(228deg 37.02% 59.99%);
+    position: relative;
+    top: 2px;
+    right: -210px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading hr {
+    background-color: hsl(228, 38%, 51%);
+    width: 270px;
+    border: 0.1px solid #6d6969;
+}
+.about img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.about span {
+    color: hsl(228deg 37.02% 59.99%);
+    font-size: 18px;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+}
+.about span.one a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.heading h2:hover {
+    color: #4DD0E1;
+}
+.about span.one a:hover {
+    color: #4DD0E1;
+}
+.heading h2 a:hover {
+    color: #4DD0E1;
+}
+.image img:hover {
+    color: #4DD0E1;
+}
